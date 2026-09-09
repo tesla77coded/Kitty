@@ -1,0 +1,94 @@
+# Configuration
+font_family                 family="Hack Nerd Font" 
+#style="Medium"
+font_size                   16
+# dejavu mono fonts
+#LiterationMono Nerd Font Monok
+#BlexMono Nerd Font Mono
+#Iosevka Nerd Font
+#CommitMono
+#Consolas ligaturized v3
+#PlemolJP Console NF
+#Hack Nerd Font 
+#JetBrainsMono Nerd Font
+#SFMono Nerd Font Mono
+#FiraMono Nerd Font
+#FiraCode Nerd Font
+bold_font                   auto
+italic_font                 auto
+bold_italic_font            auto
+resize_in_steps             yes
+# cursor_trail                10
+# cursor_trail_start_threshold 2
+# cursor_trail_decay          0.1 0.4
+# cursor_blink_interval       0.5
+# cursor_stop_blinking_after  15
+adjust_line_height          2
+shell_integration           disabled
+scrollback_lines            5000
+wheel_scroll_min_lines      1
+enable_audio_bell           no
+hide_window_decorations     yes
+# background_opacity          0.8
+# background_blur             40
+# dynamic_background_opacity  yes
+confirm_os_window_close     0
+# selection_foreground        none
+# selection_background        none
+map ctrl+backspace send_text all \x17
+env LANG=en_US.UTF-8
+env LC_ALL=en_US.UTF-8
+
+# =========================
+# Clean Dark – Kitty Theme
+# =========================
+# Core
+# background            #1c1a18
+# foreground            #d8d0c8
+# selection_background  #4a4642
+# selection_foreground  #e8e0d8
+# Cursor
+# cursor                #a09890
+# cursor_text_color     #1c1a18
+# URL / underline
+# url_color             #6090d4
+# Borders
+# active_border_color   #d4aa40
+# inactive_border_color #3a3632
+# Tabs
+# active_tab_background   #2e2b28
+# active_tab_foreground   #d4aa40
+# inactive_tab_background #242220
+# inactive_tab_foreground #7aaa8c
+# =========================
+# ANSI Colors
+# =========================
+# Black / White
+# color0  #1c1a18
+# color7  #d8d0c8
+# Red
+# color1  #e06060
+# color9  #e87878
+# Green
+# color2  #5ab388
+# color10 #72c49a
+# Yellow (warm gold)
+# color3  #d4aa40
+# color11 #e0be60
+# Blue
+# color4  #6090d4
+# color12 #80aae0
+# Magenta / Violet
+# color5  #a890e0
+# color13 #bea8e8
+# Cyan / Teal
+# color6  #5ab0c4
+# color14 #72c4d4
+# Light foreground
+# color15 #f0e8e0
+
+
+# BEGIN_KITTY_THEME
+# Solarized8 Dark
+include current-theme.conf
+# END_KITTY_THEME
